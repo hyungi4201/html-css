@@ -1,0 +1,123 @@
+@font-face{
+    src : url("fonts/GowunBatang-Regular.ttf");
+    font-family: 'GowunBatang';
+}
+@font-face {
+    font-family:'rock';
+    src: url('fonts/SSRockRegular.ttf');
+}
+*{
+    margin:0; padding:0;
+    font-family: 'GowunBatang';
+}
+a {text-decoration: none;
+    color: inherit;}
+li{ list-style: none;}
+
+.pull-right{float:right;}
+body{
+    width:960px;
+    margin: 0 auto;
+    background:#E2D9E8;
+}
+#page-wrapper{
+    background: white;
+    margin: 40px 0;
+    padding: 10px 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 6px rgba(100, 100, 100, 0.3);
+}
+
+#main-header{padding: 170px 80px;
+    background:url('laptop-336373_1920.jpg');
+    background-size: cover;
+    background-position: right;}
+
+.master-title{
+    font-size: 50px;
+    color:white;
+    font-family: 'Shadows Into Light', cursive;
+}
+
+.master-description{
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Nanum Brush Script', cursive;
+    font-family: 'Gowun Batang', serif;
+}
+
+#main-navigation{
+    border-top: 1px solid #E2D9E8;
+    border-bottom: 1px solid #E2D9E8;
+    margin-bottom: 20px;
+    height: 40px;
+    background-image: url('laptop-336373_1920.jpeg');
+}
+.outer-menu-item{
+    background-color:#E2D9E8;
+    float: left;
+    position: relative;
+}
+.outer-menu-item:hover{
+    background: black;
+    color: white;
+}
+.menu-title {
+    display: block;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    padding: 5px 20px;
+}
+.inner-menu{
+    display:none;
+    position: absolute;
+    top: 40px; left: 0;
+    width: 100%;
+    background: white;
+    box-shadow: 0 2px 6px rgba(5, 5, 5, 0.9);
+    z-index: 1000;
+
+    text-align: center;
+}
+.inner-menu-item>a{
+    display: block;
+    padding: 5px 10px;
+    color: black;
+}
+.inner-menu-item>a:hover{
+    background: black;
+    color: white;
+}
+
+#content{overflow:hidden;}
+#main-section{
+    float: left;
+    width: 920px;
+}
+article{
+    padding: 0 10px 100px 10px;
+    border-bottom: 3px solid #C8C8C8;
+}
+
+.article-header{padding: 1px 0;
+    font-family: 'Kaushan Script', cursive;}
+.article-title{
+    font-size: 50px;
+    font-weight: 500;
+    padding-bottom: 10px;
+}
+.article-body{ font-size: 20px;}
+.aside-list{padding: 10px 0 30px 0;}
+.aside-list>h3{
+    font-size: 15px;
+    font-weight: 600;
+}
+.asid-list li a {
+    margin-left: 7px;
+    font-size:13px;
+    color:#6C6C6C;
+}
+
+cc{color:blue;}
+

@@ -1,0 +1,15 @@
+body{
+    background-color:#DFEFF9;
+}
+h1{
+    color:#EEBDF1;
+    font-family: 'East Sea Dokdo', cursive;
+}
+p{
+    color:blue;
+}
+span{
+    font-style:italic;
+    font-weight:bold;
+    color:cornflowerblue;
+}

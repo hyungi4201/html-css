@@ -1,0 +1,24 @@
+#box1, #box2, #box3{
+    width:300px;
+    padding: 20px;
+    border: solid 3px orange;
+}
+#box1, #box2{
+    margin-bottom:5px;
+}
+#box2{
+    border-left:solid 3px red;
+    border-right:solid 3px red;
+    color:blueviolet;
+    text-align: right;
+    border-radius:20px
+}
+#box3{
+    padding-bottom:50px;
+    box-shadow: 3px 3px 5px #888888
+}
+#a{
+    background-color:yellowgreen;
+    float:center;
+    text-align:center;
+}
